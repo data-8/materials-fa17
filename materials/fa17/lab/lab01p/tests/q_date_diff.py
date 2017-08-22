@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> abs(difference)
+          >>> abs(date_difference)
           30
           """,
           'hidden': False,
