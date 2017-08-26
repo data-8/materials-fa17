@@ -19,3 +19,4 @@ test = {
       'type': 'doctest'
     }
   ]
+}
