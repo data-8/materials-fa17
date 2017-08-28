@@ -13,17 +13,7 @@ test = {
           """,
           'hidden': False,
           'locked': False
-        },
-        {
-          'code': r"""
-          >>> names_q1 == 2
-          True
-          >>> names_q2 == 4
-          True
-          """,
-          'hidden': True,
-          'locked': False
-        },
+        }
       ],
       'scored': True,
       'setup': '',

@@ -11,15 +11,7 @@ test = {
           """,
           'hidden': False,
           'locked': False
-        },
-        {
-          'code': r"""
-          >>> dissimilarity
-          141
-          """,
-          'hidden': True,
-          'locked': False
-        },
+        }
       ],
       'scored': True,
       'setup': '',
