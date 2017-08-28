@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(dissimilarity, (int, long, float))
+          >>> isinstance(dissimilarity, (int, float))
           True
           """,
           'hidden': False,
