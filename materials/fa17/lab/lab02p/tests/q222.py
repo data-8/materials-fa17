@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> # Check your value of crazy_y!
-          >>> crazy_ys == crazy_xs * np.sin(crazy_xs) + crazy_xs
+          >>> np.all(crazy_ys == crazy_xs * np.sin(crazy_xs) + crazy_xs)
           True
           """,
           'hidden': False,

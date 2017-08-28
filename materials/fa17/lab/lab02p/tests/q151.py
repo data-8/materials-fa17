@@ -7,11 +7,12 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> discounted_prices == np.array([4., 4.8, 12.])
+          >>> np.all(discounted_prices == np.array([4., 4.8, 12.]))
+          True
           """,
           'hidden': False,
           'locked': False
-        }
+        },
       ],
       'scored': True,
       'setup': '',

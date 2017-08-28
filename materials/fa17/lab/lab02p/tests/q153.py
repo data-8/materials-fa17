@@ -15,7 +15,7 @@ test = {
         {
           'code': r"""
           >>> # Check your math!
-          >>> multiples[3] == 8
+          >>> error_array[3] == 8
           True
           """,
           'hidden': False,
