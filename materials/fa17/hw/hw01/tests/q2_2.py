@@ -14,7 +14,7 @@ test = {
             },
             {
               'code': r"""
-              >>> characters_q2 == 2
+              >>> characters_q2 == 1
               True
               """,
               'hidden': True,
