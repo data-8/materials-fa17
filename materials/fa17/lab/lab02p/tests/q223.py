@@ -23,7 +23,7 @@ test = {
         },
         {
           'code': r"""
-          >>> estimate > 2000
+          >>> estimate < 2000
           True
           """,
           'hidden': False,
