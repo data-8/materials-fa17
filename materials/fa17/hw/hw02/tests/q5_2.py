@@ -6,8 +6,9 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> # Hint: biggest decrease is above 30, but not 47.
-          >>> 30 <= biggest_decrease < 47
+          >>> type(cumulative_sum_answer) == int
+          True
+          >>> 1 <= cumulative_sum_answer <= 3
           True
           """,
           'hidden': False,

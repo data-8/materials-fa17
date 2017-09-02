@@ -6,7 +6,9 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> all_different.lower() in {'yes', 'no'}
+          >>> difference_from_expected.size
+          272
+          >>> difference_from_expected.item(271) == abs(60 * 272 - sum(waiting_times))
           True
           """,
           'hidden': False,

@@ -6,8 +6,9 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> inventory.sort(0).column(0).item(0)
-          25274
+          >>> # Hint: biggest decrease is above 30, but not 47.
+          >>> 30 <= biggest_decrease < 47
+          True
           """,
           'hidden': False,
           'locked': False

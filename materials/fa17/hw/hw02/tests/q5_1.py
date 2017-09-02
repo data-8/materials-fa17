@@ -6,27 +6,8 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> # Hint: shortest is a number between 40 and 50.
-          >>> 40 <= shortest <= 50
-          True
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
-          >>> # Hint: longest is a number between 70 and 130.
-          >>> 70 <= longest <= 130
-          True
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
-          >>> # Hint: the average is between the shortest and the longest
-          >>> shortest <= average <= longest
-          True
+          >>> largest_population_change
+          87515824
           """,
           'hidden': False,
           'locked': False
