@@ -1,5 +1,5 @@
 {
-  "name": "Lab 2: Data Types",
+  "name": "Lab 3: Tables",
   "endpoint": "cal/data8/fa17/lab03p",
   "src": [
     "lab03p.ipynb"
