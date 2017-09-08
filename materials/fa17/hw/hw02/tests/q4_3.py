@@ -6,12 +6,12 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> fixed_products
-          array([      66234,     6661248, 66900162648,     -394250])
+          >>> np.allclose(fixed_products, np.array([66234, 6661248, 66900162648, -394250]))
+          True
           """,
           'hidden': False,
           'locked': False
-        }
+        },
       ],
       'scored': True,
       'setup': '',
