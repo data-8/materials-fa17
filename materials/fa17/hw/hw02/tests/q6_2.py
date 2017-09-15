@@ -12,16 +12,7 @@ test = {
           """,
           'hidden': False,
           'locked': False
-        },
-        {
-          'code': r"""
-          >>> # Hint: biggest decrease is above 30, but not 47.
-          >>> biggest_decrease
-          45
-          """,
-          'hidden': True,
-          'locked': False
-        },
+        }
       ],
       'scored': True,
       'setup': '',

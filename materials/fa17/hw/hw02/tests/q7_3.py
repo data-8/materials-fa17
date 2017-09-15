@@ -11,15 +11,7 @@ test = {
           """,
           'hidden': False,
           'locked': False
-        },
-        {
-          'code': r"""
-          >>> all_different.lower()
-          'no'
-          """,
-          'hidden': True,
-          'locked': False
-        },
+        }
       ],
       'scored': True,
       'setup': '',
